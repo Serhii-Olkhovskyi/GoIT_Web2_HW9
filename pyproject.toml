@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "goit-web2-hw9"
+version = "0.1.0"
+description = ""
+authors = ["Serhii <90449769+Serhii-Olkhovskyi@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "goit_web2_hw9"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+scrapy = "^2.8.0"
+itemadapter = "^0.8.0"
+bs4 = "^0.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
